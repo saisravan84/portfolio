@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eee;
+    font-family: 'Changa', sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    min-height: 90vh;
+    min-width: 80vw;
+    border: 0.1rem solid #eee;
+    border-radius: 2px;
+    padding: 20rem 2rem;
+    background: url("./img/back-3-large.jpg"), #333;
+    background-size: cover;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center; 
+}
+
+.container .header {
+    
+    display: flex;
+    flex-direction: column;
+}
+.container .header .header-sub {
+    font-size: 1.4rem;
+}
+
+.container .header .header-main {
+    font-size: 7rem;
+    margin-top: -10px;
+    background-image: linear-gradient(to right, #F4D03F, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.countdown-section {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.countdown-section > [class^="countdown-"] {
+    background-color: rgba(200, 200, 200, 0.1);
+    width: 100px;
+}
+
+.countdown-section .count {
+    padding: 0rem 1rem;
+    border-radius: 3px;
+    font-size: 4rem;
+
+}
+
+.countdown-section .count-text {
+    margin-top: -15px;
+    font-size: 1.4rem;
+}
