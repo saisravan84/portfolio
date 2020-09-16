@@ -3,8 +3,8 @@ let dayCount = document.querySelector("#day-count");
 let hourCount = document.querySelector("#hour-count");
 let minCount = document.querySelector("#min-count");
 let secCount = document.querySelector("#sec-count");  
-const countDownDate = "9 Oct 2020";
-const headingData = "Sravan's Birthday";
+const countDownDate = "1 Jan 2021";
+const headingData = "Happy New Year";
 
 const formatCount = (count) => `${`${count}`.length < 2 ? 0 : ''}${count}`;
 
